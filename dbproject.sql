@@ -97,11 +97,11 @@ INSERT INTO Students values(3,3,'Roger','Todger');
 INSERT INTO Students values(1,4,'Jeb','Buschlite');
 INSERT INTO Students values(1,5,'Lisa','Silver');
 
-INSERT INTO Projects values(1,'Jquery Boxes','Use Jquery to manipiulate DOM elements.');
-INSERT INTO Projects values(2,'Flex Box Froggy','Use Flex Box to place frog on screen.');
+INSERT INTO Projects values(1,'Front end personal project','client side personal project');
+INSERT INTO Projects values(2,'Group project','project with other students.');
 INSERT INTO Projects values(3,'galvanize eats','q1 assesment.');
-INSERT INTO Projects values(4,'Stop light','Use event handlers to manipulate stoplight');
-INSERT INTO Projects values(5,'Save World','Stop the kar-daz-eins.');
+INSERT INTO Projects values(4,'Back end personal project','project using server side.');
+INSERT INTO Projects values(5,'capstone','final project');
 
 INSERT INTO Projects_cohort values(1,2,3);
 INSERT INTO Projects_cohort values(2,4,3);
@@ -109,14 +109,14 @@ INSERT INTO Projects_cohort values(3,5,2);
 INSERT INTO Projects_cohort values(4,2,5);
 INSERT INTO Projects_cohort values(5,1,5);
 
-INSERT INTO Projects values(1,'Jquery Boxes','Use Jquery to manipiulate DOM elements.');
-INSERT INTO Projects values(2,'Flex Box Froggy','Use Flex Box to place frog on screen.');
-INSERT INTO Projects values(3,'galvanize eats','q1 assesment.');
-INSERT INTO Projects values(4,'Stop light','Use event handlers to manipulate stoplight');
-INSERT INTO Projects values(5,'Save World','Stop the kar-daz-eins.');
+INSERT INTO Exercises values(1,'Jquery Boxes','Use Jquery to manipiulate DOM elements.');
+INSERT INTO Exercises values(2,'Flex Box Froggy','Use Flex Box to place frog on screen.');
+INSERT INTO Exercises values(3,'galvanize eats','q1 assesment.');
+INSERT INTO Exercises values(4,'Stop light','Use event handlers to manipulate stoplight');
+INSERT INTO Exercises values(5,'Save World','Stop the kar-daz-eins.');
 
-INSERT INTO Projects_cohort values(1,2,3);
-INSERT INTO Projects_cohort values(2,4,3);
-INSERT INTO Projects_cohort values(3,5,2);
-INSERT INTO Projects_cohort values(4,2,5);
-INSERT INTO Projects_cohort values(5,1,5);
+INSERT INTO Exercises_cohort values(1,2,3);
+INSERT INTO Exercises_cohort values(2,4,3);
+INSERT INTO Exercises_cohort values(3,5,2);
+INSERT INTO Exercises_cohort values(4,2,5);
+INSERT INTO Exercises_cohort values(5,1,5);
